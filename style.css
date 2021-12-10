@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .container{
+   right: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+  }
+
+  .leftPanel{
+      width: 75%;
+      border: yellow;
+  }
+
+  .rightPanel{
+      width: 25%;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  table {
+    /* width: 80%;
+    height: 100%; */
+    /* padding: 4em; */
+    margin: 2em 6em;
+    margin: 0 auto;
+  }
+
+  td {
+    color: black;
+    /* border: 1px; */
+    /* padding: 0.6rem; */
+    font-size: xx-small;
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    background-color: turquoise;
+  }
+
+  sup {
+    vertical-align: text-top;
+    font-size: smaller;
+  }
+
+  .invisibleBox{
+      background-color: transparent;
+      color: transparent;
+  }
+
